@@ -148,7 +148,7 @@ if __name__ == "__main__":
         cmd_args = {"source": "data/pcd.las", "outdir": "output", "quiet": False}
         cmd_args["outdir"] = Path(cmd_args["outdir"])
     cfg.update(cmd_args)
-    
+
     # run PotreeConverter
     logging.info("Building Potree...")
 
