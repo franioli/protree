@@ -1,4 +1,4 @@
-res/
+output/
 data/
 assets/pointclouds/*
 PotreeConverter
