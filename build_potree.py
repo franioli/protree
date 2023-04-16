@@ -35,7 +35,7 @@ def check_os() -> str:
 
 def get_potree_converter_path() -> Path:
     os = check_os()
-    project_root = Path(__file__).parents[1]
+    project_root = Path(__file__).parent
     if os == "win":
         path = project_root / "PotreeConverter.exe"
     if os == "linux":
